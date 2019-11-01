@@ -125,11 +125,11 @@
 
 ### Parametros
 
-<table width="100%">
+<table style="width:100%;">
     <thead>
         <tr>
-            <td>Parâmetro</td>
-            <td>Descriçao</td>
+            <td><strong>Parâmetro</strong></td>
+            <td><strong>Descriçao</strong></td>
         </tr>
     </thead>
     <tbody>
