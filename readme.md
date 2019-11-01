@@ -126,10 +126,16 @@
 ### Parametros
 
 <table>
-    <tr>
-    <td>f</td>
-    <td>f</td>
-    </tr>
+    <thead>
+        <td>Parametro</td>
+        <td>Explicacao</td>
+    </thead>
+    <tbody>
+        <tr>
+            <td>tipoVeiculo</td>
+            <td>Tipo do veículo: carro, moto ou caminhao (1,2,3)</td>
+        </tr>
+    </tbody>
 </table>
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
