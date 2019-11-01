@@ -1,3 +1,11 @@
+## Api de carros
+
+### Faca o clone do respositório
+
+    $ git clone https://github.com/BrenoHM/restful_seminovos.git
+    $ cd restful_seminovos
+    $ composer install 
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
