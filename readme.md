@@ -127,13 +127,23 @@
 
 <table>
     <thead>
-        <td>Parametro</td>
-        <td>Explicacao</td>
+        <tr>
+            <td>Parâmetro</td>
+            <td>Descriçao</td>
+        </tr>
     </thead>
     <tbody>
         <tr>
             <td>tipoVeiculo</td>
-            <td>Tipo do veículo: carro, moto ou caminhao (1,2,3)</td>
+            <td>Tipo do veículo: carro, moto ou caminhão (1,2,3)</td>
+        </tr>
+        <tr>
+            <td>marca</td>
+            <td>Marca do veículo</td>
+        </tr>
+        <tr>
+            <td>modelo</td>
+            <td>Modelo do veículo</td>
         </tr>
     </tbody>
 </table>
