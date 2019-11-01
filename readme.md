@@ -1,10 +1,22 @@
 ## Api de carros
 
-### Faca o clone do respositório
+### Instalação da API
 
     $ git clone https://github.com/BrenoHM/restful_seminovos.git
     $ cd restful_seminovos
-    $ composer install 
+    $ composer install
+
+### Criação da tabela do banco de dados
+
+    $ php artisan migrate:refresh --seed
+
+### Rodando o servidor
+
+    $ php artisan serve
+
+### Ex: Listagem de todos os veículos
+
+    $ http://localhost:8000/api/cars/
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
