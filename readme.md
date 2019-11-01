@@ -8,6 +8,7 @@
 
 ### Criação da tabela do banco de dados
 
+    O nome do banco de dados está no arquivo .env como: restful_seminovos
     $ php artisan migrate:refresh --seed
 
 ### Rodando o servidor
@@ -123,7 +124,7 @@
         }
     ]
 
-### Parametros
+### Parâmetros
 
 <table>
     <thead>
