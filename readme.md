@@ -125,7 +125,7 @@
 
 ### Parametros
 
-<table style="width:100%;">
+<table>
     <thead>
         <tr>
             <td><strong>Parâmetro</strong></td>
@@ -173,6 +173,4 @@
             <td>placaId</td>
             <td>Placa ou código do veículo</td>
         </tr>
-        
-    </tbody>
 </table>
