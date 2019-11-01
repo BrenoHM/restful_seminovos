@@ -125,7 +125,7 @@
 
 ### Parametros
 
-<table>
+<table width="100%">
     <thead>
         <tr>
             <td>Parâmetro</td>
@@ -144,6 +144,14 @@
         <tr>
             <td>modelo</td>
             <td>Modelo do veículo</td>
+        </tr>
+        <tr>
+            <td>anoDe</td>
+            <td>Ano de início para o intervalo</td>
+        </tr>
+        <tr>
+            <td>anoAte</td>
+            <td>Ano de fim para o intervalo</td>
         </tr>
     </tbody>
 </table>
