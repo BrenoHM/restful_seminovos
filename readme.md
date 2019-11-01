@@ -16,9 +16,70 @@
 
 ### Ex: Listagem de todos os veículos
 
+    Request:
+
     http://localhost:8000/api/cars/
 
+    Response:
+
+    [
+        {
+            "id": 1,
+            "tipoVeiculo": 1,
+            "marca": 4,
+            "modelo": 25,
+            "ano": 2015,
+            "preco": 20000,
+            "origem": "particular",
+            "estado": "seminovo",
+            "placaId": "HUN-2550",
+            "created_at": "2019-11-01 18:35:55",
+            "updated_at": null
+        },
+        {
+            "id": 2,
+            "tipoVeiculo": 2,
+            "marca": 5,
+            "modelo": 50,
+            "ano": 2018,
+            "preco": 10000,
+            "origem": "revenda",
+            "estado": "novo",
+            "placaId": "1550",
+            "created_at": "2019-11-01 18:35:55",
+            "updated_at": null
+        },
+        {
+            "id": 3,
+            "tipoVeiculo": 3,
+            "marca": 10,
+            "modelo": 55,
+            "ano": 2019,
+            "preco": 150000,
+            "origem": "particular",
+            "estado": "novo",
+            "placaId": "1551",
+            "created_at": "2019-11-01 18:35:55",
+            "updated_at": null
+        },
+        {
+            "id": 4,
+            "tipoVeiculo": 1,
+            "marca": 10,
+            "modelo": 55,
+            "ano": 2017,
+            "preco": 30000,
+            "origem": "revenda",
+            "estado": "seminovo",
+            "placaId": "HMV-2567",
+            "created_at": "2019-11-01 18:35:55",
+            "updated_at": null
+        }
+    ]
+
 ### Ex: Listagem de um determinado veículo
+
+    Request:
 
     http://localhost:8000/api/cars/1
 
@@ -37,6 +98,29 @@
         "created_at": "2019-11-01 18:35:55",
         "updated_at": null
     }
+
+### Ex: Listagem utilizando todos os filtros
+
+    Request: 
+    
+    http://localhost:8000/api/cars/?tipoVeiculo=1&marca=4&modelo=25&anoDe=2015&anoAte=2017&precoDe=20000&precoAte=150000&origem=particular-revenda&estado=novo-seminovo&placaId=HUN-2550
+
+    Response:
+
+    {
+        "id": 1,
+        "tipoVeiculo": 1,
+        "marca": 4,
+        "modelo": 25,
+        "ano": 2015,
+        "preco": 20000,
+        "origem": "particular",
+        "estado": "seminovo",
+        "placaId": "HUN-2550",
+        "created_at": "2019-11-01 18:35:55",
+        "updated_at": null
+    }
+
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
