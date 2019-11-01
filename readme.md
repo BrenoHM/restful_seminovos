@@ -18,6 +18,26 @@
 
     http://localhost:8000/api/cars/
 
+### Ex: Listagem de um determinado veículo
+
+    http://localhost:8000/api/cars/1
+
+    Response:
+
+    {
+        "id": 1,
+        "tipoVeiculo": 1,
+        "marca": 4,
+        "modelo": 25,
+        "ano": 2015,
+        "preco": 20000,
+        "origem": "particular",
+        "estado": "seminovo",
+        "placaId": "HUN-2550",
+        "created_at": "2019-11-01 18:35:55",
+        "updated_at": null
+    }
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
